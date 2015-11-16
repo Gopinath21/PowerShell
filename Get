@@ -14,3 +14,5 @@
 14. Get-History
 15. Get-Process -Name "*Explorer*" -ComputerName TXRICCTX140
 16. Get-Service -Name "C*"
+=====================================================
+ Enter-PSSession -ComputerName T*******012 -Credential  domain\username
