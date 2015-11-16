@@ -1,0 +1,16 @@
+1.Verb-SingularNoun -Parameters Value
+2. Get-Service
+3. Get-Process
+4. Get-Command
+5. Get-Alias
+6. Get-Help -examples, -full, -detailed, -online
+7. Get-Command -? <- quick help
+8. Get-Service | Select-Object Name
+9. Get-Service | Select-Object ServiceName, Status
+10.Get-Service | Get-Member
+11. Get-Service | Measure-Object
+12. Get-Date
+13. $PSVersionTable or Get-Host
+14. Get-History
+15. Get-Process -Name "*Explorer*" -ComputerName TXRICCTX140
+16. Get-Service -Name "C*"
