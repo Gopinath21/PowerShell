@@ -1,0 +1,15 @@
+$servers=Get-ContentC:\srv.txt
+foreach ($srv in $servers)
+{
+Print $srv
+Invoke-Command -ComputerName $srv -ScriptBlock {gpupdate}
+
+}
+
+
+
+$servers= Get-Content C:\srv.txt 
+foreach ($srv in $servers) 
+{
+Print $srv 
+Invoke-Command -ComputerName $srv -ScriptBlock {gpupdate}}
