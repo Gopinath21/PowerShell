@@ -12,7 +12,7 @@
 12. Get-Date
 13. $PSVersionTable or Get-Host
 14. Get-History
-15. Get-Process -Name "*Explorer*" -ComputerName TXRICCTX140
+15. Get-Process -Name "*Explorer*" -ComputerName T******01
 16. Get-Service -Name "C*"
 =====================================================
- Enter-PSSession -ComputerName T*******012 -Credential  domain\username
+ Enter-PSSession -ComputerName T*******02 -Credential  domain\username
